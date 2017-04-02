@@ -17,5 +17,11 @@ namespace ASP_homework2.Controllers
             ViewBag.custName = order.CustName;
             return View();
         }
+
+        public ActionResult index2(string id)
+        {
+            ViewBag.id = id;
+            return View();
+        }
     }
 }
