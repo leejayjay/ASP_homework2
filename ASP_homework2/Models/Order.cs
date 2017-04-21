@@ -11,7 +11,7 @@ namespace ASP_homework2.Models
         /// <summary>
         /// 訂單編號
         /// </summary>
-        public int OrderDd { get; set; }
+        public string OrderId { get; set; }
 
         /// <summary>
         /// 客戶代號
@@ -26,7 +26,7 @@ namespace ASP_homework2.Models
         /// <summary>
         /// 業務(員工)代號
         /// </summary>
-        public int EmpId { get; set; }
+        public string EmployeeId { get; set; }
 
         /// <summary>
         /// 業務(員工姓名)
@@ -36,32 +36,32 @@ namespace ASP_homework2.Models
         /// <summary>
         /// 訂單日期
         /// </summary>
-        public DateTime? Orderdate { get; set; }
+        public string  Orderdate { get; set; }
 
         /// <summary>
         /// 需要日期
         /// </summary>
-        public DateTime? RequireDdate { get; set; }
+        public string RequireDdate { get; set; }
 
         /// <summary>
         /// 出貨日期
         /// </summary>
-        public DateTime? ShippedDate { get; set; }
+        public string ShippedDate { get; set; }
 
         /// <summary>
         /// 出貨公司代號
         /// </summary>
-        public int ShipperId { get; set; }
+        public string ShipperId { get; set; }
 
         /// <summary>
         /// 出貨公司名稱
         /// </summary>
-        public int ShipperName { get; set; }
+        public string ShipperName { get; set; }
 
         /// <summary>
         /// 運費
         /// </summary>
-        public double Freight { get; set; }
+        public decimal Freight { get; set; }
 
         /// <summary>
         /// 出貨說明
